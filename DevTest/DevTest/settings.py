@@ -131,7 +131,9 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_PORT = 587
 EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'alokbabuyadhuvanshi@gmail.com'
+
+# Enter the email on which you want to send the retived data. and before this make sure that you email is able for this application usage, otherwise you will get some error.
+EMAIL_HOST_USER = 'yourEmail@gmail.com' 
 EMAIL_HOST_PASSWORD = 'bardddbfoguooelp'
 
 
