@@ -1,0 +1,20 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Summary Report</title>
+    <link rel="stylesheet" href={% static "summary.css" %}>
+</head>
+<body>
+    <div class="report-container">
+        <h2>Summary Report</h2>
+        <div class="report-content">
+            {{ summary|safe }}
+        </div>
+        <form action="{% url 'send_email' %}" method="post">
+            {% csrf_token %}
+            <button type="submit" class="send-email-btn">Send Email</button>
+        </form>
+    </div>
+</body>
+</html>

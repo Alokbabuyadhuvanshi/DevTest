@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+h2 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.report-container {
+    max-width: 900px; /* Increased the container width */
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #dadbd3;
+    border: 1px solid #ddd;
+    
+}
+.report-content {
+    font-size: 16px;
+    line-height: 1.5;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: center; /* Centering text */
+}
+th {
+    background-color: #f2f2f2;
+}
+td {
+    background-color: #fff;
+}
+.send-email-btn {
+    position: absolute; /* Absolute positioning */
+    top: 10px; /* Adjust the top position */
+    right: 10px; /* Adjust the right position */
+    background-color: #4CAF50; /* Green background color */
+    color: #fff; /* White text color */
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+.send-email-btn:hover {
+    background-color: #3e8e41; 
+}
